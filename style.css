@@ -59,3 +59,75 @@ header{
     background-color:blue;
     color:black;
 }
+/* Action section start  */
+
+main{
+
+    max-width:1140px;
+    margin:0 auto;
+}
+.action{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:220px;
+    margin-bottom:220px;
+}
+
+
+.section-title{
+    font-size:42px;
+    font-weight:700;
+}
+
+.action-content p{
+
+    font-size:24px;
+    color:#252432;
+}
+
+.action img{
+
+    border-radius:50px;
+
+}
+
+/* Users section start */
+.user{
+
+    background-color:#e5e7ff;
+    padding:50px 140px;
+    border-radius:10px;
+}
+.user h2{
+
+    text-align:center;
+    font-weight:700;
+    font-size:38px;
+}
+
+.user-container{
+
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.user-item{
+    text-align:center;
+    margin:10px;
+}
+.user-item h3{
+font-size:32px;
+font-weight:700;
+color:#4E47FF;
+margin-bottom:5px;
+    
+
+}
+
+.user-item p{
+
+    font-size:14px;
+    color:#555;
+}
